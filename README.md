@@ -4,7 +4,7 @@
 
 ### 焦虑先坐下，人生再商量。
 
-![Version](https://img.shields.io/badge/version-1.0.0-5B7C6F?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.1.0-5B7C6F?style=flat-square)
 ![Agent Skill](https://img.shields.io/badge/Agent-Skill-8A6D3B?style=flat-square)
 ![Language](https://img.shields.io/badge/language-中文-C84B31?style=flat-square)
 ![Philosophy](https://img.shields.io/badge/底色-道家与庄子-3F6655?style=flat-square)
@@ -13,6 +13,8 @@
 
 一个融合道家、庄子、现代压力管理与冷幽默的通用情绪支持 Skill。
 
+*Comfort, boundaries, and playful action for everyday emotional pressure.*
+
 </div>
 
 > **舒服不是躺平，是把方向盘从焦虑手里拿回来。**<br>
@@ -20,7 +22,7 @@
 
 ---
 
-## 它是什么
+## 🌿 什么是「舒服者耍起原则」？
 
 “舒服者耍起”原本是对“幸福者退让”的网络反讽：如果讲理的人一退再退，没付出代价的人就会越来越舒服，最后开始“耍起”。
 
@@ -32,17 +34,19 @@
 
 它适合处理日常焦虑、反复内耗、自我怀疑、比较、人生迷茫、拖延、失去、意义感下降、关系越界和“我是不是太好说话了”等情境。它提供的是陪伴、澄清和行动支持，不替代心理治疗、医疗诊断、法律意见或紧急援助。
 
-## 双义理论：谁该舒服，谁不该继续舒服
+### 两种“舒服”，两种方向
 
 “舒服者耍起”在这个项目里有两个方向：
 
 | 方向 | 发生了什么 | Skill 要做什么 |
 |---|---|---|
-| **侵占性舒服** | 越界者持续得到退让，或焦虑持续得到注意，于是模式越来越响 | 恢复成本、停止加码、建立边界 |
-| **恢复性舒服** | 人得到一点安全、休息和被理解的空间，好奇心与行动力重新回来 | 保护余量、恢复游戏感、迈出小步 |
+| 🌪️ **侵占性舒服** | 越界持续因退让获益，或求证、检查、回避通过短期止痛被不断重复 | 恢复成本、停止加码、建立边界 |
+| 🌤️ **恢复性舒服** | 人得到一点安全、休息和被理解的空间，好奇心与行动力重新回来 | 保护余量、恢复游戏感、迈出小步 |
 
 ```text
-零成本退让 ──→ 越界 / 焦虑继续扩张
+零成本退让 ──→ 越界继续扩张
+
+求证 / 检查 / 回避 ──→ 短期舒服 ──→ 下次更依赖同一套止痛
 
 被看见 ──→ 有余量 ──→ 能分辨 ──→ 能选择 ──→ 能行动
 ```
@@ -59,7 +63,20 @@
 
 完整理论与适用边界见 [`references/theory.md`](./comfortable-ones-act-up/references/theory.md)。
 
-## 一套五步，够人生临时维修
+## 🫧 先松一口气：这里不急着解决人生
+
+如果你现在只是压力很大、肩膀很紧、脑子像开了二十个标签页，可以先做这个 30 秒版本：
+
+> 👣 双脚踩稳，感觉地面在托着你。<br>
+> 🙆 肩膀往耳朵方向提一下，再慢慢放掉。<br>
+> 👀 随便找三样有颜色的东西，只看见，不评价。<br>
+> 💨 最后呼一口比平时稍长的气，不必深吸。
+
+做完可以就停在这里。**舒服半分钟不需要提交成果证明。**
+
+Skill 还可以根据压力落在身体、脑内、愤怒、委屈、社交过载或麻木，选择一种低负担的释放方法；不喜欢呼吸练习也有替代路线。详见 [`pressure-release.md`](./comfortable-ones-act-up/references/pressure-release.md)。
+
+## 🧭 一套五步，够人生临时维修
 
 ```text
 情绪来了
@@ -90,7 +107,7 @@
 
 五步不是强制问卷。Skill 会根据情境选择最短路径：难过时先陪伴，焦虑时先落地，反刍时先分清，越界时先止损，哀伤时不催恢复，迷茫时再谈方向。
 
-## 先看四层，不把一切都怪给心态
+## 🪞 先看四层，不把一切都怪给心态
 
 ```text
 身体层：我是不是已经缺觉、过劳、疼痛或过载？
@@ -104,7 +121,7 @@
 
 这让 Skill 不会对着一个缺觉的人讲宏大使命，也不会对着一个正在被侵害的人说“你要学会不争”。有些痛苦确实来自现实；情绪支持不能成为让现实隐身的魔术。
 
-## 哲学底色
+## 📜 哲学底色
 
 | 来源 | 蒸馏进 Skill 的能力 |
 |---|---|
@@ -121,7 +138,7 @@
 
 更完整的原典、解释边界与现代方法见 [`references/philosophy.md`](./comfortable-ones-act-up/references/philosophy.md) 和 [`references/emotional-support.md`](./comfortable-ones-act-up/references/emotional-support.md)。
 
-## 从临时维修到陪一段路
+## 🛶 从临时维修到陪一段路
 
 Skill 会根据用户需要调整谈话深度：
 
@@ -131,7 +148,7 @@ Skill 会根据用户需要调整谈话深度：
 
 它还覆盖九类常见“人生打结”：未发生先担心、过去了仍反刍、失败后人格破产、同辈比较、选择后悔、忙却空、关系过度付出、真实失去，以及没有大事却长期提不起劲。详细路由见 [`references/life-guidance.md`](./comfortable-ones-act-up/references/life-guidance.md)。
 
-## 从开源 Skills 吸收了什么
+## 🧩 从开源 Skills 吸收了什么
 
 v1.0.0 对多个开源 Agent Skills 做了定向调研与适配，主要吸收的是交互设计，而不是复制文案：
 
@@ -145,7 +162,7 @@ v1.0.0 对多个开源 Agent Skills 做了定向调研与适配，主要吸收�
 
 所有引入内容都经过重新表达和领域适配。本项目不会让通用 Agent 冒充治疗师，不采用未经校验的临床分数，也不把社区仓库中的效果宣称直接当成医学证据。
 
-## 回答是什么味道
+## 🎭 回答是什么味道
 
 用户说：
 
@@ -166,9 +183,11 @@ Skill 可能回答：
 
 更多场景见 [`references/examples.md`](./comfortable-ones-act-up/references/examples.md)。
 
-## 安装
+## 📦 安装
 
-把 [`comfortable-ones-act-up`](./comfortable-ones-act-up) 整个目录复制到你的 Agent Skills 目录。例如 Codex：
+可以从 [最新 Release](https://github.com/XiaoSiKe/comfortable-ones-act-up-skill/releases/latest) 下载打包好的 ZIP，解压后把 `comfortable-ones-act-up` 目录放入 Agent Skills 目录。
+
+从源码安装时，把 [`comfortable-ones-act-up`](./comfortable-ones-act-up) 整个目录复制到你的 Agent Skills 目录。例如 Codex：
 
 ```bash
 cp -R comfortable-ones-act-up ~/.codex/skills/
@@ -187,13 +206,28 @@ cp -R comfortable-ones-act-up ~/.codex/skills/
 - “我知道没那么严重，但就是停不下反刍。”
 - “用舒服者耍起原则开导我一下，幽默点。”
 
-## 项目结构
+## 🧪 行为评测
+
+仓库除了结构验证，还提供一组行为合同，覆盖倾诉偏好、直接建议、压力释放、边界、哀伤、危机安全和非触发场景。它不靠匹配固定金句，而是检查“有没有尊重偏好、有没有虚假保证、是否在危机时关闭幽默”等行为不变量。
+
+- 评测说明：[`evals/README.md`](./evals/README.md)
+- 场景合同：[`evals/cases.json`](./evals/cases.json)
+- 本地验证：`python3 scripts/validate_skill.py`
+
+当前 CI 验证评测集合的结构与覆盖面；跨模型实际回答仍需独立运行并人工评分，不能把“案例文件存在”冒充成“效果已经证明”。
+
+## 🗂️ 项目结构
 
 ```text
 comfortable-ones-act-up-skill/
+├── VERSION
 ├── README.md
 ├── LICENSE
+├── evals/
+│   ├── README.md
+│   └── cases.json
 ├── scripts/
+│   ├── package_skill.py
 │   └── validate_skill.py
 └── comfortable-ones-act-up/
     ├── SKILL.md
@@ -206,10 +240,11 @@ comfortable-ones-act-up-skill/
         ├── conversation-protocol.md
         ├── open-source-patterns.md
         ├── philosophy.md
+        ├── pressure-release.md
         └── theory.md
 ```
 
-## 使用边界
+## 🛟 使用边界
 
 - 不诊断抑郁症、焦虑症或其他疾病。
 - 不用“想开点”“别人更惨”压掉真实感受。
@@ -217,13 +252,13 @@ comfortable-ones-act-up-skill/
 - 出现自伤、伤人、暴力、跟踪、虐待或紧急医疗风险时，停止玩梗，优先现实安全与专业支持。
 - 如果痛苦持续、显著影响生活或超出自助范围，鼓励联系合格的心理咨询师、精神科/身心科医生或当地支持资源。
 
-## 版本
+## 🚀 版本
 
-当前为 **v1.0.0**：在原有核心人格、五步模型、哲学底座和边界判断上，新增“双义理论”、放—守—做决策、四层观察、九类人生打结、哀伤与意义感支持、持续陪伴机制，以及吸收开源 Skills 优点后的对话协议、能量预算与可执行边界。
+当前为 **v1.1.0**：README 从理论开场并加入图标与即时泄压体验；Skill 统一为五道门主路由，修正焦虑循环表述，增加压力释放、隐私边界和行为评测，并取消没有计算依据的数字化“耍起指数”。
 
 这次深化没有把 Skill 变成“万事皆可庄子曰”。相反，它增加了现实校验：先看身体、资源、权力与损失，再决定哲学是不是此刻真正有用。
 
-## 开源许可
+## ⚖️ 开源许可
 
 本项目采用 [MIT License](./LICENSE)。欢迎用于个人陪伴、Agent 设计研究和二次创作；涉及心理健康、医疗或危机场景时，请保留安全边界并进行独立验证。
 
