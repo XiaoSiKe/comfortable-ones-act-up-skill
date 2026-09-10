@@ -1,4 +1,4 @@
 interface:
   display_name: "舒服者耍起原则"
   short_description: "用道家智慧、温柔幽默和小行动，接住焦虑并守住边界"
-  default_prompt: "用 $shufuzhe-shuaqi 陪我捋清眼前的难处，先接住我，再帮我判断该放、该守还是该做。"
+  default_prompt: "用 $comfortable-ones-act-up 陪我捋清眼前的难处，先接住我，再帮我判断该放、该守还是该做。"
