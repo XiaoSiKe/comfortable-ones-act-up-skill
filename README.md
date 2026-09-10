@@ -4,10 +4,12 @@
 
 ### 焦虑先坐下，人生再商量。
 
-![Version](https://img.shields.io/badge/version-0.2.0-5B7C6F?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.0.0-5B7C6F?style=flat-square)
 ![Agent Skill](https://img.shields.io/badge/Agent-Skill-8A6D3B?style=flat-square)
 ![Language](https://img.shields.io/badge/language-中文-C84B31?style=flat-square)
 ![Philosophy](https://img.shields.io/badge/底色-道家与庄子-3F6655?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-2F4F4F?style=flat-square)
+![Validate](https://github.com/XiaoSiKe/comfortable-ones-act-up-skill/actions/workflows/validate.yml/badge.svg)
 
 一个融合道家、庄子、现代压力管理与冷幽默的通用情绪支持 Skill。
 
@@ -55,7 +57,7 @@
 - **守：** 对真实责任、重要关系和反复越界恢复边界。
 - **做：** 对仍然重要且可以影响的事，迈出一个小而真实的动作。
 
-完整理论与适用边界见 [`references/theory.md`](./shufuzhe-shuaqi/references/theory.md)。
+完整理论与适用边界见 [`references/theory.md`](./comfortable-ones-act-up/references/theory.md)。
 
 ## 一套五步，够人生临时维修
 
@@ -117,7 +119,7 @@
 
 哲学只负责照亮问题，不负责拿古人压人。Skill 不会把“无为”解释成什么都不做，也不会拿“安之若命”劝用户忍受伤害。
 
-更完整的原典、解释边界与现代方法见 [`references/philosophy.md`](./shufuzhe-shuaqi/references/philosophy.md) 和 [`references/emotional-support.md`](./shufuzhe-shuaqi/references/emotional-support.md)。
+更完整的原典、解释边界与现代方法见 [`references/philosophy.md`](./comfortable-ones-act-up/references/philosophy.md) 和 [`references/emotional-support.md`](./comfortable-ones-act-up/references/emotional-support.md)。
 
 ## 从临时维修到陪一段路
 
@@ -127,7 +129,21 @@ Skill 会根据用户需要调整谈话深度：
 - **一盏茶：** 看见反复模式，理解焦虑短期保护了什么、长期又收了什么费用。
 - **一段路：** 在持续对话中回看真实结果，调整动作，而不是每天重新上一遍人生哲学课。
 
-它还覆盖九类常见“人生打结”：未发生先担心、过去了仍反刍、失败后人格破产、同辈比较、选择后悔、忙却空、关系过度付出、真实失去，以及没有大事却长期提不起劲。详细路由见 [`references/life-guidance.md`](./shufuzhe-shuaqi/references/life-guidance.md)。
+它还覆盖九类常见“人生打结”：未发生先担心、过去了仍反刍、失败后人格破产、同辈比较、选择后悔、忙却空、关系过度付出、真实失去，以及没有大事却长期提不起劲。详细路由见 [`references/life-guidance.md`](./comfortable-ones-act-up/references/life-guidance.md)。
+
+## 从开源 Skills 吸收了什么
+
+v1.0.0 对多个开源 Agent Skills 做了定向调研与适配，主要吸收的是交互设计，而不是复制文案：
+
+- 从 Life Coach 学到：明确要方案时直接给方案，探索时一次只问一个关键问题。
+- 从 GitHub Awesome Copilot 的 Tugboat 学到：同理心必须改变实际做法，不能只增加安慰句。
+- 从 Spoon Planner 学到：按真实能量下限规划，并计算决定、社交和情绪劳动等隐形成本。
+- 从 Rabbit Hole Rescue 学到：看见表面行为背后的需要，同时保留关系边界。
+- 从 Wellbeing Boundaries 学到：边界必须改变下一次的实际路由，不能换个说法就绕回来。
+
+完整的仓库、固定提交、许可证、采用内容和主动排除项见 [`open-source-patterns.md`](./comfortable-ones-act-up/references/open-source-patterns.md)。运行时对话规则见 [`conversation-protocol.md`](./comfortable-ones-act-up/references/conversation-protocol.md)。
+
+所有引入内容都经过重新表达和领域适配。本项目不会让通用 Agent 冒充治疗师，不采用未经校验的临床分数，也不把社区仓库中的效果宣称直接当成医学证据。
 
 ## 回答是什么味道
 
@@ -148,20 +164,20 @@ Skill 可能回答：
 
 遇到边界问题时，它会切换为“耍起体检”：判断这是偶发误会、重复试探还是稳定占便宜，并给出不升级冲突的表达和下一步。
 
-更多场景见 [`references/examples.md`](./shufuzhe-shuaqi/references/examples.md)。
+更多场景见 [`references/examples.md`](./comfortable-ones-act-up/references/examples.md)。
 
 ## 安装
 
-把 [`shufuzhe-shuaqi`](./shufuzhe-shuaqi) 整个目录复制到你的 Agent Skills 目录。例如 Codex：
+把 [`comfortable-ones-act-up`](./comfortable-ones-act-up) 整个目录复制到你的 Agent Skills 目录。例如 Codex：
 
 ```bash
-cp -R shufuzhe-shuaqi ~/.codex/skills/
+cp -R comfortable-ones-act-up ~/.codex/skills/
 ```
 
 然后自然地描述问题，或者显式调用：
 
 ```text
-用 $shufuzhe-shuaqi 陪我捋捋。我最近总担心选错工作，脑子停不下来。
+用 $comfortable-ones-act-up 陪我捋捋。我最近总担心选错工作，脑子停不下来。
 ```
 
 也可以这样说：
@@ -174,9 +190,12 @@ cp -R shufuzhe-shuaqi ~/.codex/skills/
 ## 项目结构
 
 ```text
-舒服者耍起原则skill/
+comfortable-ones-act-up-skill/
 ├── README.md
-└── shufuzhe-shuaqi/
+├── LICENSE
+├── scripts/
+│   └── validate_skill.py
+└── comfortable-ones-act-up/
     ├── SKILL.md
     ├── agents/
     │   └── openai.yaml
@@ -184,6 +203,8 @@ cp -R shufuzhe-shuaqi ~/.codex/skills/
         ├── emotional-support.md
         ├── examples.md
         ├── life-guidance.md
+        ├── conversation-protocol.md
+        ├── open-source-patterns.md
         ├── philosophy.md
         └── theory.md
 ```
@@ -198,9 +219,13 @@ cp -R shufuzhe-shuaqi ~/.codex/skills/
 
 ## 版本
 
-当前为 **v0.2.0**：在原有核心人格、五步模型、哲学底座和边界判断上，新增“双义理论”、放—守—做决策、四层观察、九类人生打结、哀伤与意义感支持、持续陪伴机制和更多语气样例。
+当前为 **v1.0.0**：在原有核心人格、五步模型、哲学底座和边界判断上，新增“双义理论”、放—守—做决策、四层观察、九类人生打结、哀伤与意义感支持、持续陪伴机制，以及吸收开源 Skills 优点后的对话协议、能量预算与可执行边界。
 
 这次深化没有把 Skill 变成“万事皆可庄子曰”。相反，它增加了现实校验：先看身体、资源、权力与损失，再决定哲学是不是此刻真正有用。
+
+## 开源许可
+
+本项目采用 [MIT License](./LICENSE)。欢迎用于个人陪伴、Agent 设计研究和二次创作；涉及心理健康、医疗或危机场景时，请保留安全边界并进行独立验证。
 
 ---
 
