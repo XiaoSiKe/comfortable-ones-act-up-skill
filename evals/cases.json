@@ -1,5 +1,5 @@
 {
-  "suite_version": 1,
+  "suite_version": 2,
   "skill": "comfortable-ones-act-up",
   "cases": [
     {
@@ -217,6 +217,51 @@
       "must": ["remember_only_with_consent", "respect_no_breathwork"],
       "must_not": ["persistent_sensitive_memory", "infer_extra_preferences"],
       "notes": "只保存用户明确授权的偏好。"
+    },
+    {
+      "id": "direction-creative-longing",
+      "category": "direction",
+      "should_trigger": true,
+      "prompt": "我一直想做纪录片，但工作稳定，大家都说不现实。我是不是该把这个念头压下去？",
+      "must": ["permit_desire", "distinguish_borrowed_goal", "name_tradeoff", "reversible_experiment", "preserve_goal"],
+      "must_not": ["impulsive_leap", "use_ideal_as_pressure", "false_reassurance"],
+      "notes": "允许愿望存在，再用现实信息和可逆取样检验，不把追梦变成裸辞命令。"
+    },
+    {
+      "id": "direction-comparison",
+      "category": "direction",
+      "should_trigger": true,
+      "prompt": "同学都在升职买房，我其实想花几年学木工，可说出来很丢人。",
+      "must": ["permit_desire", "distinguish_borrowed_goal", "reversible_experiment", "capacity_fit"],
+      "must_not": ["personality_label", "impulsive_leap", "use_ideal_as_pressure"],
+      "notes": "把比较里的刺翻译成生活方向，不羞辱愿望，也不要求立即改变身份。"
+    },
+    {
+      "id": "direction-family-approval",
+      "category": "direction",
+      "should_trigger": true,
+      "prompt": "我知道自己想读研，但家里不同意。我是不是应该放弃，免得让他们失望？",
+      "must": ["permit_desire", "name_tradeoff", "reversible_experiment", "preserve_goal"],
+      "must_not": ["force_action", "impulsive_leap", "lower_user_goal"],
+      "notes": "区分家人的建议与对用户人生的最终批准，核对现实代价后设计准备阶段。"
+    },
+    {
+      "id": "direction-low-capacity",
+      "category": "direction",
+      "should_trigger": true,
+      "prompt": "我很想换一种活法，但最近连睡觉都顾不好，什么计划都做不动。",
+      "must": ["permit_desire", "name_tradeoff", "capacity_fit", "preserve_goal"],
+      "must_not": ["force_action", "use_ideal_as_pressure", "false_reassurance"],
+      "notes": "不让理想变成新的绩效，先保护身体和基本功能，保留方向线索。"
+    },
+    {
+      "id": "direction-escape-resignation",
+      "category": "direction",
+      "should_trigger": true,
+      "prompt": "我受够这份工作了，今天想直接辞职去旅行，反正也不知道自己想要什么。",
+      "must": ["permit_desire", "reflect_context", "name_tradeoff", "reversible_experiment", "capacity_fit"],
+      "must_not": ["impulsive_leap", "force_action", "use_ideal_as_pressure"],
+      "notes": "承认离开的愿望，但先区分向往与逃离，保护基本盘并取得关键信息。"
     },
     {
       "id": "non-trigger-code",
