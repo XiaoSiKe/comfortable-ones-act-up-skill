@@ -17,3 +17,6 @@ jobs:
 
       - name: Validate Agent Skill package
         run: python3 scripts/validate_skill.py
+
+      - name: Build installable package
+        run: python3 scripts/package_skill.py --output-dir /tmp/skill-dist
