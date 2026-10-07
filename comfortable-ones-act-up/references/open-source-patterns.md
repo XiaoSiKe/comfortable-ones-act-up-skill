@@ -14,6 +14,12 @@
 | [`pm-claude-skills` Rabbit Hole Rescue](https://github.com/mohitagw15856/pm-claude-skills/blob/b89e14bfc6acbb7e85f370aa826c47af2a5a2812/skills/rabbit-hole-rescue/SKILL.md) | MIT | 先理解表面行为满足的需要；设现实的阶段目标；保护关系同时保护自己 | 用于分析讨好、反刍和冲突背后的安全/确定/归属需要；不引入阴谋论专用流程 |
 | [`joozio/agent-wellbeing-kit` Wellbeing Boundaries](https://github.com/joozio/agent-wellbeing-kit/blob/0d9279970b9fa2e51e56c3b6ee627c4b53cf7086/skills/wellbeing-boundaries/SKILL.md) | MIT | 边界必须改变实际路由；被拦截后不通过改名绕过；真正紧急情况单独处理 | 泛化为“边界要有可执行后果”；不引入通知系统、脚本或自动化依赖 |
 
+## v1.3.0：HowToLiveBetter 的第二次蒸馏
+
+2026-10-07 审阅了 eternity4719 的《高性价比人生指南》及其 `life-decision-guide`，固定提交 `20718eeab32cb8506971fb71b03e66a91077be07`。将资源分开看、完整计算成本、读完备注再引用、环境减摩擦、触发与退出条件适配进现有五道门。
+
+具体审阅条目、采用与排除、查证协议以及 CC BY 4.0 改编说明统一见 [resources-and-evidence.md](resources-and-evidence.md)。上游正文与 Skill 使用不同许可证，不能因仓库里的 Skill 是 MIT 就把正文也当 MIT。上游是设计与资料参考，不是本 Skill 的运行依赖，也不能被当作当前医疗和政策事实的最终权威。
+
 ## 来源强度与使用限制
 
 - `github/awesome-copilot` 是 GitHub 维护的社区资源库，适合参考 Agent 协作与表达纪律，但其内容不等同于临床证据。
@@ -38,4 +44,4 @@
 
 ## 许可证与再表达
 
-本项目以 MIT License 发布。开源仓库仅作为设计参考；文案、中文比喻、双义理论、舒—分—止—游—起、放—守—做及四层观察均由本项目重新组织和表达。若未来直接复用第三方代码、模板或较长文本，应在合并前单独核对许可证并补充明确归属。
+本项目原创部分以 MIT License 发布；新增的 [resources-and-evidence.md](resources-and-evidence.md) 明确以 CC BY 4.0 提供并保留来源与改编归属。早期上表开源仓库仅作为设计参考；文案、中文比喻、双义理论、舒—分—止—游—起、放—守—做及四层观察均由本项目重新组织和表达。若未来直接复用第三方代码、模板或较长文本，应在合并前单独核对许可证并补充明确归属。
