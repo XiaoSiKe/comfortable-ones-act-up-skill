@@ -4,14 +4,14 @@
 
 ### 焦虑先坐下，人生再商量。
 
-![Version](https://img.shields.io/badge/version-1.2.0-5B7C6F?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.3.0-5B7C6F?style=flat-square)
 ![Agent Skill](https://img.shields.io/badge/Agent-Skill-8A6D3B?style=flat-square)
 ![Language](https://img.shields.io/badge/language-中文-C84B31?style=flat-square)
 ![Philosophy](https://img.shields.io/badge/底色-道家与庄子-3F6655?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-2F4F4F?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT%20%2B%20CC%20BY%204.0-2F4F4F?style=flat-square)
 ![Validate](https://github.com/XiaoSiKe/comfortable-ones-act-up-skill/actions/workflows/validate.yml/badge.svg)
 
-一个融合道家、庄子、现代压力管理与冷幽默的通用情绪与方向支持 Skill。
+一个融合道家、庄子、现代压力管理、现实资源判断与冷幽默的情绪与方向支持 Skill。
 
 *Comfort, boundaries, and playful action for everyday emotional pressure.*
 
@@ -175,6 +175,20 @@ v1.0.0 对多个开源 Agent Skills 做了定向调研与适配，主要吸收�
 
 所有引入内容都经过重新表达和领域适配。本项目不会让通用 Agent 冒充治疗师，不采用未经校验的临床分数，也不把社区仓库中的效果宣称直接当成医学证据。
 
+## 🧺 再蒸馏：舒服需要有现实支撑
+
+v1.3.0 结合 eternity4719 的 [HowToLiveBetter《高性价比人生指南》](https://github.com/eternity4719/HowToLiveBetter) 和其中的 `life-decision-guide`，把资源与证据方法接到原有五道门：
+
+- **先保护基本盘：** 吃住、必要照料、安全与真实期限先于普通方案比较。
+- **先减反复摩擦：** 一次环境调整、清楚的责任或现实支持，可能比再加一项自律任务更合身。
+- **分别看成本与价值：** 钱、时间、负荷、选择权不凑成总分；理想、照料与游戏感不必证明能赚钱。
+- **让小步有开始与停止条件：** 看未来投入与现实反馈，保留退出责任和退路。
+- **把依据说准确：** 完整读取来源与限制；研究结果、作者判断、个人适用性分别看。
+
+用户只想倾诉或泄压时，这些方法留在后台。普通陪伴不需要联网；依赖具体医疗、法律、财务或政策事实的建议才核查当前来源。
+
+详见 [`resources-and-evidence.md`](./comfortable-ones-act-up/references/resources-and-evidence.md)，内含固定来源版本、适配边界与许可说明。
+
 ## 🎭 回答是什么味道
 
 用户说：
@@ -257,6 +271,7 @@ comfortable-ones-act-up-skill/
         ├── philosophy.md
         ├── pressure-release.md
         ├── direction-and-ideals.md
+        ├── resources-and-evidence.md
         └── theory.md
 ```
 
@@ -270,13 +285,11 @@ comfortable-ones-act-up-skill/
 
 ## 🚀 版本
 
-当前为 **v1.2.0**：在 v1.1.0 的五道门、压力释放、隐私边界和行为评测基础上，新增“洒脱与理想”方向支持。Skill 会帮助用户把外界评分与真实向往分开，在不牺牲安全和基本盘的前提下，用可逆的“向心取样”靠近想要的生活；同时新增方向场景评测与 RD 需求/设计文档。
-
-这次深化没有把 Skill 变成“万事皆可庄子曰”。相反，它增加了现实校验：先看身体、资源、权力与损失，再决定哲学是不是此刻真正有用。
+当前为 **v1.3.0**：在 v1.2.0 的洒脱与理想方向支持基础上，结合 HowToLiveBetter 深化生活基本盘、总成本、环境减摩擦、证据适用性和开始/停止条件。保留陪伴、泄压、边界与向心取样，扩展行为评测合同；结构校验不代表模型效果已经验证。
 
 ## ⚖️ 开源许可
 
-本项目采用 [MIT License](./LICENSE)。欢迎用于个人陪伴、Agent 设计研究和二次创作；涉及心理健康、医疗或危机场景时，请保留安全边界并进行独立验证。
+本项目原创部分采用 [MIT License](./LICENSE)；[`resources-and-evidence.md`](./comfortable-ones-act-up/references/resources-and-evidence.md) 是注明来源与修改的改编文件，以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) 提供，分发时请保留其归属说明。欢迎用于个人陪伴、Agent 设计研究和二次创作；涉及心理健康、医疗或危机场景时，请保留安全边界并进行独立验证。
 
 ---
 
